@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ControlsContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ControlsContainer.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ControlsContainer.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TXT3_3.AccessibleName" xml:space="preserve">
+    <value>إجمالي التسبيحات</value>
+  </data>
+  <data name="TXT3_3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TXT3_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 373</value>
+  </data>
+  <data name="TXT3_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT3_3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TXT3_3.Name" xml:space="preserve">
+    <value>TXT3_3</value>
+  </data>
+  <data name="&gt;&gt;TXT3_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT3_3.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT3_3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TXT2_3.AccessibleName" xml:space="preserve">
+    <value>عدد اللفات</value>
+  </data>
+  <data name="TXT2_3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT2_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 373</value>
+  </data>
+  <data name="TXT2_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT2_3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;TXT2_3.Name" xml:space="preserve">
+    <value>TXT2_3</value>
+  </data>
+  <data name="&gt;&gt;TXT2_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT2_3.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT2_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TXT1_3.AccessibleName" xml:space="preserve">
+    <value>عدد التسبيحات</value>
+  </data>
+  <data name="TXT1_3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT1_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 373</value>
+  </data>
+  <data name="TXT1_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT1_3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TXT1_3.Name" xml:space="preserve">
+    <value>TXT1_3</value>
+  </data>
+  <data name="&gt;&gt;TXT1_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT1_3.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT1_3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TXT3_2.AccessibleName" xml:space="preserve">
+    <value>إجمالي التسبيحات</value>
+  </data>
+  <data name="TXT3_2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT3_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 353</value>
+  </data>
+  <data name="TXT3_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT3_2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TXT3_2.Name" xml:space="preserve">
+    <value>TXT3_2</value>
+  </data>
+  <data name="&gt;&gt;TXT3_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT3_2.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT3_2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TXT2_2.AccessibleName" xml:space="preserve">
+    <value>عدد اللفات</value>
+  </data>
+  <data name="TXT2_2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT2_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 353</value>
+  </data>
+  <data name="TXT2_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT2_2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TXT2_2.Name" xml:space="preserve">
+    <value>TXT2_2</value>
+  </data>
+  <data name="&gt;&gt;TXT2_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT2_2.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT2_2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TXT1_2.AccessibleName" xml:space="preserve">
+    <value>عدد التسبيحات</value>
+  </data>
+  <data name="TXT1_2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 353</value>
+  </data>
+  <data name="TXT1_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT1_2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TXT1_2.Name" xml:space="preserve">
+    <value>TXT1_2</value>
+  </data>
+  <data name="&gt;&gt;TXT1_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT1_2.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT1_2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TXT3_1.AccessibleName" xml:space="preserve">
+    <value>إجمالي التسبيحات</value>
+  </data>
+  <data name="TXT3_1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT3_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 333</value>
+  </data>
+  <data name="TXT3_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT3_1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TXT3_1.Name" xml:space="preserve">
+    <value>TXT3_1</value>
+  </data>
+  <data name="&gt;&gt;TXT3_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT3_1.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT3_1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TXT2_1.AccessibleName" xml:space="preserve">
+    <value>عدد اللفات</value>
+  </data>
+  <data name="TXT2_1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT2_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 333</value>
+  </data>
+  <data name="TXT2_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT2_1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TXT2_1.Name" xml:space="preserve">
+    <value>TXT2_1</value>
+  </data>
+  <data name="&gt;&gt;TXT2_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT2_1.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT2_1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BTN3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTN3.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTN3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BTN3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTN3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 373</value>
+  </data>
+  <data name="BTN3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 14</value>
+  </data>
+  <data name="BTN3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BTN3.Text" xml:space="preserve">
+    <value>الله أ&amp;كبر</value>
+  </data>
+  <data name="&gt;&gt;BTN3.Name" xml:space="preserve">
+    <value>BTN3</value>
+  </data>
+  <data name="&gt;&gt;BTN3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN3.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTN3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BTN2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTN2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTN2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BTN2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTN2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 353</value>
+  </data>
+  <data name="BTN2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 14</value>
+  </data>
+  <data name="BTN2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BTN2.Text" xml:space="preserve">
+    <value>ال&amp;حمد لله</value>
+  </data>
+  <data name="&gt;&gt;BTN2.Name" xml:space="preserve">
+    <value>BTN2</value>
+  </data>
+  <data name="&gt;&gt;BTN2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN2.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTN2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 165</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 165</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>إجمالي التسبيحات</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 165</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 165</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>عدد اللفات</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 165</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 165</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>عدد التسبيحات</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BTN1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTN1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTN1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BTN1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 333</value>
+  </data>
+  <data name="BTN1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 14</value>
+  </data>
+  <data name="BTN1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BTN1.Text" xml:space="preserve">
+    <value>&amp;سبحان الله</value>
+  </data>
+  <data name="&gt;&gt;BTN1.Name" xml:space="preserve">
+    <value>BTN1</value>
+  </data>
+  <data name="&gt;&gt;BTN1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN1.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTN1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ButtonsContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonsContainer.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTNClear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTNClear.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTNClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTNClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="BTNClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="BTNClear.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BTNClear.Text" xml:space="preserve">
+    <value>&amp;تصفير العدادات</value>
+  </data>
+  <data name="&gt;&gt;BTNClear.Name" xml:space="preserve">
+    <value>BTNClear</value>
+  </data>
+  <data name="&gt;&gt;BTNClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTNClear.Parent" xml:space="preserve">
+    <value>ButtonsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTNClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BTNSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTNSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTNSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTNSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 3</value>
+  </data>
+  <data name="BTNSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="BTNSave.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BTNSave.Text" xml:space="preserve">
+    <value>حف&amp;ظ</value>
+  </data>
+  <data name="&gt;&gt;BTNSave.Name" xml:space="preserve">
+    <value>BTNSave</value>
+  </data>
+  <data name="&gt;&gt;BTNSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTNSave.Parent" xml:space="preserve">
+    <value>ButtonsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTNSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BTNExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTNExit.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BTNExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTNExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 3</value>
+  </data>
+  <data name="BTNExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="BTNExit.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BTNExit.Text" xml:space="preserve">
+    <value>&amp;خروج</value>
+  </data>
+  <data name="&gt;&gt;BTNExit.Name" xml:space="preserve">
+    <value>BTNExit</value>
+  </data>
+  <data name="&gt;&gt;BTNExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTNExit.Parent" xml:space="preserve">
+    <value>ButtonsContainer</value>
+  </data>
+  <data name="&gt;&gt;BTNExit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonsContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ButtonsContainer.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="ButtonsContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 413</value>
+  </data>
+  <data name="ButtonsContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 14</value>
+  </data>
+  <data name="ButtonsContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ButtonsContainer.Name" xml:space="preserve">
+    <value>ButtonsContainer</value>
+  </data>
+  <data name="&gt;&gt;ButtonsContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonsContainer.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;ButtonsContainer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TXT1_1.AccessibleName" xml:space="preserve">
+    <value>عدد التسبيحات</value>
+  </data>
+  <data name="TXT1_1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TXT1_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 333</value>
+  </data>
+  <data name="TXT1_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="TXT1_1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TXT1_1.Name" xml:space="preserve">
+    <value>TXT1_1</value>
+  </data>
+  <data name="&gt;&gt;TXT1_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXT1_1.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;TXT1_1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Summery.AccessibleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Summery.AccessibleName" xml:space="preserve">
+    <value>الملخص</value>
+  </data>
+  <data name="Summery.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Summery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 393</value>
+  </data>
+  <data name="Summery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 14</value>
+  </data>
+  <data name="Summery.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Summery.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Summery.Name" xml:space="preserve">
+    <value>Summery</value>
+  </data>
+  <data name="&gt;&gt;Summery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Summery.Parent" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;Summery.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ControlsContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ControlsContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ControlsContainer.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ControlsContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="ControlsContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ControlsContainer.Name" xml:space="preserve">
+    <value>ControlsContainer</value>
+  </data>
+  <data name="&gt;&gt;ControlsContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlsContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ControlsContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ControlsContainer.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TXT3_3" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="TXT2_3" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="TXT1_3" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="TXT3_2" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="TXT2_2" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="TXT1_2" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="TXT3_1" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="TXT2_1" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="BTN3" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BTN2" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="BTN1" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ButtonsContainer" Row="6" RowSpan="1" Column="1" ColumnSpan="4" /&gt;&lt;Control Name="TXT1_1" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="Summery" Row="5" RowSpan="1" Column="1" ColumnSpan="4" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>المسبحة الإلكترونية</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HomeForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
